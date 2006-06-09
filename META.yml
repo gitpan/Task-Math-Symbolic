@@ -1,14 +1,19 @@
-name: Task-Math-Symbolic
-version: 1.00
 abstract: Math::Symbolic with lots of plugins
 author: Steffen Mueller
-license: perl
-distribution_type: module
-build_requires:
+build_requires: 
   Test::Pod: 1
   Test::Pod::Coverage: 1
-requires:
-  perl: 5.6.0
+distribution_type: module
+generated_by: Module::Install version 0.63
+license: perl
+name: Task-Math-Symbolic
+no_index: 
+  directory: 
+    - inc
+    - t
+recommends: 
+  Math::Symbolic::Custom::CCompiler: 0
+requires: 
   Math::Symbolic: 0.163
   Math::Symbolic::Custom::Contains: 0
   Math::Symbolic::Custom::ErrorPropagation: 0
@@ -21,9 +26,5 @@ requires:
   Math::SymbolicX::NoSimplification: 0
   Math::SymbolicX::ParserExtensionFactory: 0
   Math::SymbolicX::Statistics::Distributions: 0
-recommends:
-  Math::Symbolic::Custom::CCompiler: 0
-no_index:
-  directory:
-    - inc
-generated_by: Module::Install version 0.39
+  perl: 5.6.0
+version: 1.01

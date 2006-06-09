@@ -24,4 +24,4 @@ requires('Math::SymbolicX::Statistics::Distributions');
 recommends('Math::Symbolic::Custom::CCompiler');
 auto_install();
 #&WriteMakefile;
-&WriteAll;
+&WriteAll(sign=>1);
